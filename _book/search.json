@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Homicidios",
+    "title": "Determinantes de la productividad agricola",
     "section": "",
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
@@ -12,9 +12,9 @@
   {
     "objectID": "Capitulos/introducción.html",
     "href": "Capitulos/introducción.html",
-    "title": "1  Introducción",
+    "title": "Introducción",
     "section": "",
-    "text": "Mi primero proyecto",
+    "text": "Cuando se habla del agro en Ecuador, a veces se piensa que es un sector pequeño frente al petróleo o al comercio, pero los datos dicen otra cosa. Según el Atlas Agroeconómico 2024, el sector agropecuario aporta el 8,6 % del PIB y una de cada tres personas empleadas trabaja en actividades agropecuarias (Primicias, 2025). Es decir, lo que pase con la productividad del campo le llega a muchísima gente, sobre todo en las zonas rurales.\nEl problema es que el campo no rinde igual en todas partes. Si miramos el banano, el rendimiento nacional promedio es de 42,99 toneladas por hectárea, pero Guayas llega a 46,39 y Los Ríos a 43,64. En el cacao el promedio del país es de apenas 0,79 t/ha, mientras que Azuay reporta rendimientos de hasta 0,94 (Primicias, 2025). Son diferencias que a simple vista parecen pequeñas, pero se repiten año tras año y cuando se multiplican por miles de hectáreas terminan marcando cuánto gana un productor en una provincia y cuánto en otra.\nLo que más nos llamó la atención son las condiciones en las que se produce. En 2020 solo el 25,4 % de la superficie cultivada del país tenía riego, y esa cifra venía de 21,1 % en 2018 (INEC, 2020), lo que significa que tres de cada cuatro hectáreas dependen de la lluvia. Además, la ESPAC 2024 muestra que el 54,3 % de los productores solo terminó la primaria y el 13,1 % no tiene ninguna instrucción formal (El Diario, 2025). Con esos dos datos empezamos a sospechar que la diferencia entre provincias no se explica solo por cuánta tierra tienen, sino por el acceso que tienen a tecnología, a conocimiento y a infraestructura.\nA partir de esto, la pregunta que guía nuestro trabajo es la siguiente: ¿qué factores explican que, con una dotación parecida de tierra, trabajo y capital, algunas provincias del Ecuador tengan una productividad agrícola más alta que otras? Nuestro objetivo es identificar qué variables pesan más y medir cuánto. La hipótesis de partida es que las provincias con mayor acceso a riego, crédito, asistencia técnica y con productores más educados tienen mayor productividad agrícola, incluso después de controlar por el tamaño de las unidades productivas, el clima y la calidad de las vías.\nPara responderla pensamos en un modelo de datos de panel con las provincias del país entre 2010 y 2024, usando información de la ESPAC del INEC y de las cuentas provinciales del Banco Central. El panel nos sirve por dos razones: con efectos fijos por provincia controlamos todo lo que casi no cambia en el tiempo (el tipo de suelo, la altitud, la tradición productiva), y con efectos por año controlamos los golpes que afectan a todo el país a la vez, como los cambios de precios internacionales o la pandemia. También somos conscientes de una limitación: el riego y el crédito tienden a llegar justo a las provincias que ya producen más, así que puede haber un problema de endogeneidad. Por eso vamos a interpretar los resultados como asociaciones robustas y no como relaciones causales perfectas.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
     ]
